@@ -11,7 +11,7 @@ const findKeypairWithPrefix = (): void => {
 
     if (publicKey.startsWith(prefix)) {
       console.log(`Знайдено! Публічний ключ: ${publicKey}`);
-      console.log(`Приватний ключ:`, Buffer.from(keypair.secretKey));
+      console.log(`Приватний ключ:`, keypair.secretKey);
       console.log(`Кількість спроб: ${i}`);
       break;
     }
