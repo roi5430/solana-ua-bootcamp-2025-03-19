@@ -23,4 +23,4 @@ const findKeypairWithPrefix = (): void => {
 };
 
 findKeypairWithPrefix();
-// ksyRvhRFLdTUKGB9B3auVCvqopP9uiV6ycFbiFT46hW
+// отримано ключ ksyRvhRFLdTUKGB9B3auVCvqopP9uiV6ycFbiFT46hW
